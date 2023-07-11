@@ -1,0 +1,277 @@
+/* .container{
+    width: 100px;
+    height: 500px;
+    border-radius;:
+} */
+
+
+
+
+.top{
+    height: 150px;
+    width: 150px;
+    border-radius: 70px 70px 0px 0px ;
+    top: -15px;
+    left: 10px;
+    background-color:#5B6A7A;
+
+    position: relative;
+
+
+}
+.reye{
+    height:10px;
+    width: 11px;
+    background-color: white;
+    border-radius:100% ;
+    position: absolute;
+    top: 119px;
+    left: 20px;
+}
+
+.leye{
+    height:10px;
+    width: 11px;
+    background-color: white;
+    border-radius:100% ;
+    position: absolute;
+    top: 119px;
+    right: 20px;
+
+}
+
+
+.middle{
+    height: 170px;
+    width: 150px;
+    border-radius: 0px 0px 50px 50px;
+    top:218px;
+    left:481px;
+    background-color: #5B6A7A;
+    position: absolute;
+
+}
+.lefthand{
+    height: 70px;
+    width: 20px;
+    border-radius: 100%;
+    position: absolute;
+    background-color: #5B6A7A;
+    border-radius: 10px 10px 10px 10px ;
+    top: 30px;
+    right: 155px;
+
+}
+
+.righthand{
+    height: 70px;
+    width: 20px;
+    border-radius: 100%;
+    position: absolute;
+    background-color: #5B6A7A;
+    border-radius: 10px 10px 10px 10px ;
+    top: 30px;
+    left: 155px;
+}
+.rleg{
+    height:60px ;
+    width:20px ;
+    border-radius: 100%;
+    position: absolute;
+    background-color: #5B6A7A;
+    border-radius: 10px 10px 10px 10px ;
+    top: 370px;
+    right:470px ;
+}
+
+.lleg{
+       
+        height:60px ;
+        width:20px ;
+        border-radius: 100%;
+        position: absolute;
+        background-color: #5B6A7A;
+        border-radius: 10px 10px 10px 10px ;
+        top: 370px;
+        left:488px ;
+}
+
+.container{
+    padding-left: 1px;
+}
+.container :hover.top,.middle{
+    animation: container 2s infinite;
+}
+.container :hover.middle{
+    animation: container 2s infinite
+}
+
+.middle :hover{
+    background-color: yellow;
+    transform: rotate(60deg);
+}
+.middle :hover{
+    animation: middle 5s infinite
+}
+
+@keyframes middle{
+    0%{
+        transform-origin: top;
+        transform: rotate(90deg);
+    }
+    25%{
+        transform-origin: top;
+        transform: rotate(180deg);
+    }
+        
+     
+     50%{
+        transform-origin: top;
+        transform: rotate(270deg);
+    }
+     
+     75%{
+        transform: rotate(360deg);
+    
+        transform-origin: top;
+     }
+     100%{
+        transform: rotate(450deg);
+    
+        transform-origin: top;
+     }
+    }
+
+
+.bottom :hover{
+    background-color: yellow;
+    transform: rotate(10deg);
+}
+.bottom :hover{
+    animation: bottom 5s infinite;
+}
+@keyframes bottom{
+    0%{
+    
+        transform: rotate(0deg);
+        transform-origin: top;
+        background-color: blue;
+    }
+    25%{
+    
+        transform: rotate(180deg);
+        transform-origin: top;
+        background-color: brown;
+    }
+        
+     
+     50%{
+
+        transform: rotate(360deg);
+        transform-origin: top;
+        background-color: blueviolet;
+    
+    }
+     
+     75%{
+
+        transform: rotate(180deg);
+        transform-origin: top;
+        background-color: skyblue;
+
+     }
+     100%{
+
+        transform: rotate(360deg);
+        transform-origin: top;
+        background-color: black;
+     }
+    }
+
+    .top:hover{
+        /* background-color: yellow; */
+        transform: rotate(60deg);
+
+    }
+    .top:hover{
+        
+        animation: top 5s infinite;
+
+    }
+    @keyframes top{
+        0%{
+
+            background-color: blueviolet;
+            transform: rotate(20deg);
+        }
+        25%{
+        
+            background-color: aqua;
+            transform: rotate(-90deg);
+        }
+            
+         
+         50%{
+    
+            background-color: blue;
+            transform: rotate(80deg);
+        }
+         
+         75%{
+    
+           background-color: black;
+           transform: rotate(-90deg);
+    
+         }
+         100%{
+    
+           background-color: palevioletred;
+           transform: rotate(40deg);
+         }
+        }
+.container :hover{
+    transform: rotate(60deg);  
+}
+.container :hover{
+    animation: container 5s infinite;
+}
+@keyframes container{
+    0%{
+    
+        transform: rotate(0deg);
+        transform-origin: top;
+        background-color: gray;
+    }
+    25%{
+    
+        transform: rotate(180deg);
+        transform-origin: top;
+        background-color: green;
+    }
+        
+     
+     50%{
+
+        transform: rotate(360deg);
+        transform-origin: top;
+        background-color: aqua;
+    
+    }
+     
+     75%{
+
+        transform: rotate(180deg);
+        transform-origin: top;
+        background-color: blue;
+
+     }
+     100%{
+
+        transform: rotate(360deg);
+        transform-origin: top;
+        background-color:gold;
+     }
+    }
+
+
+        
